@@ -34,8 +34,8 @@ easyBtn.addEventListener("click", function() {
 });
 hardBtn.addEventListener("click", function() {
   hardBtn.classList.add("selected");
-    easyBtn.classList.remove("selected");
-    numSquares = 6;
+  easyBtn.classList.remove("selected");
+  numSquares = 6;
   colors = generateRandomColors(numSquares);
   pickedColor = pickColor();
   colorDisplay.textContent = pickedColor;
